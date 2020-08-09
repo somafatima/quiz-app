@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+<script src="https://kit.fontawesome.com/a81368914c.js"></script>
+<link href="https://fonts.googleapis.com/css?family=Merriweather&display=swap" rel="stylesheet">
+</head>
+<style>
+    body{
+        background-image: url("back.jpg");
+        background-size: cover;
+    }
+    h1 {
+      font-family: 'Merriweather',sans-serif;
+      letter-spacing: 10px;
+  font-size: 80px;
+  color: #fff;
+  text-align: center;
+  text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #0073e6, 0 0 20px hsl(210, 100%, 45%), 0 0 25px #0073e6, 0 0 30px #0073e6, 0 0 35px #0073e6;
+}
+
+h2{
+  color: white;
+  text-align: center;
+  margin-top: 20px;
+}
+.main{
+	display: flex;
+	justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+#item{
+    padding: 0.5rem 1rem;
+    outline: none;
+    border: none;
+    height: 50px;
+    border-radius: 25px;
+    width: 350px;
+    margin: 0.25rem;
+    transition: .5s;
+    font-size: 1.15rem;
+
+}
+.add{
+	outline: none;
+    border: none;
+    height: 50px;
+    border-radius: 25px;
+    width: 50px;
+    background-color: #0073e6;
+    color:black;
+    cursor: pointer;
+    transition: .5s;
+    margin: 0.25rem;
+    
+}
+
+.add:hover{
+	opacity: 0.7;
+}
+
+</style>
+<body>
+    <div class="container">
+<h1>QUIZ APP</h1>
+<h2>Let's Check Your Brain Power!</h2>
+    </div>
+    <div class="main">
+      <input id="item" type="text"  placeholder="enter your full name:" required>
+     
+     <form action="index2.html">
+      <button class="add" type="text" style="font-weight: 600;font-size: 30px;"><i class="fa fa-hourglass-start" aria-hidden="true"></i></button>
+     </form>
+  </div>
+    <script src="app.js"></script>
+</body>
+</html>
